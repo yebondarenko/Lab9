@@ -12,11 +12,11 @@
 
 Архітектура
 
-Проект побудований на принципах **Clean Architecture** та паттерні **MVVM**:
+Проект побудований на принципах Clean Architecture та паттерні MVVM:
 - UI (Compose): Відображає стан, отриманий від ViewModel.
 - ViewModel: Керує станом екрану та бізнес-логікою.
 - Repository: Єдина точка доступу до даних (FusedLocationProvider та Room DAO).
-- Room Database: Виступає як **Single Source of Truth (SSOT)** - UI оновлюється автоматично при зміні даних у БД.
+- Room Database: Виступає як Single Source of Truth (SSOT) - UI оновлюється автоматично при зміні даних у БД.
 
 Як запустити
 1. Клонуйте репозиторій.
